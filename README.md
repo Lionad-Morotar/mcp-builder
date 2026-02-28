@@ -1,5 +1,7 @@
 # MCP Builder
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Lionad-Morotar/mcp-builder/releases)
+
 基于 Anthropic MCP 构建指南，结合 Arcade 的 Tools Pattern，帮助你创建高质量的 MCP（模型上下文协议）服务器及 MCP Tools。
 
 ## 安装
