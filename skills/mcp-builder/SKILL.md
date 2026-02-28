@@ -123,7 +123,20 @@ license: 完整条款见 LICENSE.txt
 - `idempotentHint`：true/false
 - `openWorldHint`：true/false
 
-对于拥有2个或多个工具的复杂任务开发，use patterns from [tools patterns](./reference/tools_patterns.md)
+对于拥有2个或多个工具的复杂任务开发，use patterns from [tools patterns](./reference/tools_patterns.md)，尤其是当工具涉及以下讨论时：
+
+| 分类 | 核心问题 |
+|------|----------|
+| Tool Types | Query、Command 还是 Discovery？ |
+| Tool Interface | Agent 如何理解和调用？ |
+| Tool Discovery | Agent 如何找到合适的 Tool？ |
+| Tool Composition | 是否应该捆绑多个操作？ |
+| Tool Execution | 同步、异步还是事务性？ |
+| Tool Response | 结果应该是什么样？ |
+| Tool Context | 身份和状态如何管理？ |
+| Tool Resilience | 如何从失败中恢复？ |
+| Tool Security | 如何控制访问？ |
+| Integration | 如何连接外部系统？ |
 
 ---
 
