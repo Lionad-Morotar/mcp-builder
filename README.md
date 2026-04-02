@@ -7,7 +7,7 @@
 ## 安装
 
 ```bash
-npx skills add https://github.com/Lionad-Morotar/mcp-builder
+npx skills add -g https://github.com/Lionad-Morotar/mcp-builder
 ```
 
 ## 使用
